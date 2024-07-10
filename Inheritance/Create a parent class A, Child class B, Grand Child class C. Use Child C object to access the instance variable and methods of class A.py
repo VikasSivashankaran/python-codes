@@ -22,3 +22,5 @@ obj_c=C()
 print(obj_c.var_a)
 print(obj_c.method_a())
 print(obj_c.var_c)
+
+print(obj_c.method_b())
