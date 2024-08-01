@@ -1,5 +1,5 @@
-ID,Product Name,Price,GST %
-1,Macbook,50000,18
-2,Laptop,50000,18
-3,TV,50000,18
-4,Speaker,50000,18
+ID,Product Name,Customer Name,Price,GST %
+1,Macbook,vikas,50000,18
+2,Laptop,siva,50000,18
+3,TV,abi,50000,18
+4,Speaker,prakash,50000,18

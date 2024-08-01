@@ -16,7 +16,7 @@ with open('product.csv', mode='r', newline='') as file:
 
 # Filter the records from master_product based on product_ids and write to output.csv
 with open('output.csv', mode='w', newline='') as file:
-    fieldnames = ['ID', 'Product Name', 'Price', 'GST %']
+    fieldnames = ['ID', 'Product Name', 'Customer Name','Price', 'GST %']
     writer = csv.DictWriter(file, fieldnames=fieldnames)
     writer.writeheader()
     for product_id in product_ids:
